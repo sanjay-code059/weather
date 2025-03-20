@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+}
+.parent{
+    height: 1400px;
+    width: 1400px;
+    /* border: red solid 1px; */
+    margin: 300px auto;
+    position: relative;
+}
+.box{
+    border: 2px white solid;
+    border-radius: 50%;
+    position: absolute;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    top: 600px;
+    left: 600px;
+    background-color: yellow;
+    box-shadow: 0px 0px 150px 0px yellow;
+}
+.box2{
+    height: 400px;
+    width: 400px;
+    top: 500px;
+    left: 500px;
+    position: relative;
+    animation: box2 5s infinite linear;
+}
+@keyframes box2{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }   
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+.planate-2{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 175px;
+}
+.box3{
+    height: 600px;
+    width: 600px;
+    top: 400px;
+    left: 400px;
+    animation: box3 10s infinite linear;
+}
+@keyframes box3{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }   
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+.planate-3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(249, 244, 181);
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 275px;
+}
+.box4{
+    height: 800px;
+    width: 800px;
+    top: 300px;
+    left: 300px;
+    animation: box4 15s infinite linear;
+}
+@keyframes box4{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }   
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+.planate-4{
+    height: 50px;
+    width: 50px;
+    background-color: #0066ff;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 375px;
+    position: relative;
+    animation: planate-4 5s infinite linear;
+}
+@keyframes planate-4{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }   
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+.subplanate-4{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+}
+.box5{
+    height: 1000px;
+    width: 1000px;
+    top: 200px;
+    left: 200px;
+    animation: box5 20s infinite linear;
+}
+@keyframes box5{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }   
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+.planate-5{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(161, 42, 42);
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 475px;
+}
+.box6{
+    height: 1200px;
+    width: 1200px;
+    top: 100px;
+    left: 100px;
+    animation: box6 25s infinite linear;
+}
+@keyframes box6{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }   
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+.planate-6{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:-25px;
+    left: 575px;
+}
+.box7{
+    height: 1400px;
+    width: 1400px;
+    top: 0px;
+    left: 0px;  
+    animation: box7 30s infinite linear;
+}
+@keyframes box7{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }   
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+.planate-7{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 675px;
+}
